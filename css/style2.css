@@ -1,0 +1,43 @@
+/* Created by: Allen.Li
+ * Created on: Sep 2022 */
+
+body {
+  background-color: 
+    #38538a;
+}
+h1 {
+  background-color: rgb(46, 134, 189);
+  color: hsl(239deg 50% 47%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #de3fc1;
+}
+
+ul {
+  color: beige;
+}
+
+ul li::before {
+  content: "✅";
+}
+
+table {
+  border: solid thin;
+}
+
+th {
+  height: 2rem;
+  background: red;
+  border: 1px solid white;
+  text-align: left;
+}
+
+td {
+  height: 2rem;
+  background: lightblue;
+  border: 1px solid black;
+  text-align: center;
+}
